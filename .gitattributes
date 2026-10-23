@@ -1,0 +1,9 @@
+# Configuration for git attributes
+# Language detection rules
+src/** linguist-detectable
+*.html linguist-vendored
+src/**/*.ts linguist-detectable   
+*.bat text eol=crlf
+*.htm linguist-vendored
+package-lock.json linguist-generated
+go.sum linguist-generated
